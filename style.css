@@ -1,0 +1,140 @@
+@font-face {
+  font-family: "norsebold";
+  src: url("norsebold-webfont.woff2") format("woff2"),
+    url("norsebold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #000000;
+  background-color: #000000;
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+  overflow: hidden;
+}
+
+main {
+  width: 65vw;
+  display: flex;
+  background-color: #f3f4f6;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+#image-div {
+  width: 35vw;
+  height: 100vh;
+  position: relative;
+}
+
+div #odin {
+  position: absolute;
+  top: 150px;
+  width: 100%;
+  background-color: #00000073;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#odin_image {
+  max-width: 100%;
+  width: 60px;
+  height: 80px;
+}
+
+#odin_text {
+  font-family: "norsebold", Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  color: #fff;
+}
+
+#credit {
+    position: absolute;
+    bottom: 12px;
+    font-size: 0.6rem;
+    color: #fff;
+    left: 85px;
+}
+
+#credit a {
+    color: #fff;
+}
+
+img {
+  width: 100%;
+  max-width: 45vw;
+  height: 100vh;
+}
+
+#form-container {
+  width: 55vw;
+  margin-left: 2rem;
+}
+
+#para {
+  margin-top: 7rem;
+  width: 75%;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+
+#sign-up {
+  height: 30%;
+  box-shadow: 5px 5px 5px #00000021;
+  margin-bottom: 1.4rem;
+}
+
+#input {
+  display: flex;
+  width: max-content;
+}
+
+input {
+  appearance: none;
+  width: 100%;
+  border: 1px solid #333;
+  margin: 0;
+  font-family: inherit;
+  font-size: 90%;
+  display: block;
+  border-radius: 2px;
+}
+
+input:invalid {
+  border-color: #900;
+}
+
+label {
+  margin-top: 12px;
+  display: block;
+  font-size: 0.8rem;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+#line_2 {
+  margin-left: 3rem;
+}
+
+button {
+  padding: 6px 24px;
+  border-radius: 8px;
+  background-color: #596d48;
+  color: #fff;
+  border-style: none;
+}
+
+#para-2 {
+  font-size: 0.8rem;
+}
