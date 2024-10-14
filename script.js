@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   const validateConfirmPassword = () => {
-    if (confirmPassword.value !== passWord.value) {
+    if (confirmPassword.value !== passWord.value.length) {
       showError(confirmPassword, 'Passwords do not match.');
     } else {
       hideError(confirmPassword);
